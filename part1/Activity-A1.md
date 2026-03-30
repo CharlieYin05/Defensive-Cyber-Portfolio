@@ -79,6 +79,7 @@ The SafeZone app is used to enhance campus safety for students, staff, and visit
 - Privacy risks related to location tracking
 - Possible misuse if unauthorized access to user account occurs
 
+
 ---
 
 ## Analysis
