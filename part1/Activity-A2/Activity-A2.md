@@ -36,12 +36,15 @@ Public transport systems use digital and physical mechanisms to provide secure a
     - Checking transaction history
     - Performing online top-ups
 
+    ![Transperth App with login](Transperth_App_with_login.jpg)
+
 - **Unregistered (Anonymous) Users**
   - Can access general features of the app, such as:
     - Viewing timetables
     - Tracking transport services
     - Journey planning
   - However, they **cannot manage SmartRider cards or access personalised features**
+    ![Transperth App without login](Transperth_App_without_login.jpg)
 
 #### Additional Security Features
 - Real-time tracking and alerts
@@ -49,13 +52,13 @@ Public transport systems use digital and physical mechanisms to provide secure a
 
 #### Potential Vulnerabilities
 - QR codes could be replaced with malicious ones (QR phishing)
-- Public WiFi risks when accessing transport data
 
 ---
 
 ### 2. QR Code at Bus Stops
 
 QR codes allow users to quickly access transport information.
+![Bus_stop QR_code](Transperth_QR_code.jpg)
 
 #### Security Concepts
 - **Convenience vs Security Trade-off**
@@ -100,8 +103,8 @@ Government systems use strong identity verification to secure access.
 During my visa application process, I encountered a security control mechanism used by the U.S. Consulate.
 
 The consulate explicitly requires all document submissions to be sent through the official Visa Navigator system instead of direct email.
-![Navigator](screenshots/Visa-Navigator.jpg)
-![Navigator2](screenshots/Visa-Navigator_2.jpg)
+![Navigator](Visa-Navigator.jpg)
+![Navigator2](Visa-Navigator_2.jpg)
 
 ---
 
