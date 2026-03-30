@@ -37,6 +37,7 @@ Public transport systems use digital and physical mechanisms to provide secure a
     - Performing online top-ups
 
     ![Transperth App with login](Transperth_App_with_login.jpg)
+    Example of registered user interface of My Account 
 
 - **Unregistered (Anonymous) Users**
   - Can access general features of the app, such as:
@@ -44,14 +45,10 @@ Public transport systems use digital and physical mechanisms to provide secure a
     - Tracking transport services
     - Journey planning
   - However, they **cannot manage SmartRider cards or access personalised features**
-    ![Transperth App without login](Transperth_App_without_login.jpg)
 
-#### Additional Security Features
-- Real-time tracking and alerts
-- Incident reporting via app 
 
-#### Potential Vulnerabilities
-- QR codes could be replaced with malicious ones (QR phishing)
+![Transperth App without login](Transperth_App_without_login.jpg)
+Anonymous users interface of My Account 
 
 ---
 
@@ -66,7 +63,6 @@ QR codes allow users to quickly access transport information.
 
 #### Potential Vulnerabilities
 - QR code spoofing (attacker replaces QR code)
-- Users cannot easily verify legitimacy before scanning
 
 ---
 
