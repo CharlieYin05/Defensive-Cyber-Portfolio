@@ -41,17 +41,19 @@ WPA3 offers improved security compared to WPA2, especially against offline passw
 ### 2. Guest WiFi Network
 
 A separate guest WiFi network is enabled for visitors.
+![guest-WiFi](screenshot/guest-WiFi.jpg)
 
 
 #### Security Concepts
 - **Network Segmentation**
-  - Separates guest devices from the main network
+  - Separates guest devices from the main network, guest cannot detect and access devices on LAN.
 
-- **Access Control**
-  - Guests have limited access
+- **Access Control and Bandwidth Management**
+  - Guest networks allow to implement stricter firewall rules and set bandwidth limits to ensure that guest activities do not degrade the performance of LAN internet services.
+
 
 #### Analysis
-This prevents untrusted devices from accessing sensitive devices such as personal computers or IoT systems.
+This prevents untrusted devices from accessing sensitive devices such as personal computers or IoT systems
 
 #### Potential Vulnerabilities
 - If misconfigured, guests may access internal devices
@@ -61,6 +63,7 @@ This prevents untrusted devices from accessing sensitive devices such as persona
 ### 3. Router Credential Security
 
 The default router username and password have been changed.
+![router-admin](screenshot/router-admin-pass-change.jpg)
 
 #### Security Concepts
 - **Authentication**
@@ -83,7 +86,7 @@ Telnet access on the router has been disabled.
 - **Protocol Hardening**
 
 #### Analysis
-Telnet transmits data in plaintext, making it vulnerable to interception (e.g., sniffing attacks). Disabling Telnet reduces this risk.
+Telnet transmits data in **plaintext**, making it vulnerable to interception (e.g., sniffing attacks). Disabling Telnet reduces this risk.
 
 ---
 
@@ -100,6 +103,8 @@ Restricting SSH to local network access prevents remote attackers from attemptin
 
 #### Potential Vulnerabilities
 - If LAN is compromised, SSH could still be accessed
+
+![ports](screenshot/Router-Ports.jpg)
 
 ---
 
