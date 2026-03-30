@@ -96,10 +96,18 @@ However, each system has limitations. For example, access cards rely on possessi
 
 ## Evidence
 
-- Photos of access control systems (attach in /screenshots)
-- Screenshot of SafeZone app interface
-- University security website:
+### Photos of access control systems (attach in /screenshots)
+
+### Screenshot of SafeZone app interface
+![SafeZone App](SafeZone_App_screenshot.jpg)
+The screenshot above shows the SafeZone application interface used on campus.
+This application provides emergency assistance, first aid support, and real-time communication with campus security, demonstrating how digital tools enhance campus safety.
+
+
+### University security website:
   https://www.uwa.edu.au/about/safety-and-security
+
+
 
 ---
 
