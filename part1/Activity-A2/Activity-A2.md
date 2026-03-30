@@ -80,13 +80,14 @@ Government systems use strong identity verification to secure access.
   - Password + code + device verification 
 
 - **Biometric Authentication**
-  - Fingerprint or face recognition
+  - Fingerprint or face recognition or password are required to open the myID application on device
 
 - **Encryption & Privacy Protection**
   - myID uses cryptographic protection 
 
 #### Identity Strength Levels
-- Higher identity verification allows access to more services
+- Higher identity verification allows access to more goverment online services (e.g. ATO online).
+- Visit https://www.myid.gov.au/how-to-set-up-myid?path=increase-your-identity-strength#myid-Identitystrength to get more information
 
 #### Potential Vulnerabilities
 - Identity theft if device is compromised
@@ -99,6 +100,8 @@ Government systems use strong identity verification to secure access.
 During my visa application process, I encountered a security control mechanism used by the U.S. Consulate.
 
 The consulate explicitly requires all document submissions to be sent through the official Visa Navigator system instead of direct email.
+![Navigator](screenshots/Visa-Navigator.jpg)
+![Navigator2](screenshots/Visa-Navigator_2.jpg)
 
 ---
 
