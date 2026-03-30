@@ -70,6 +70,15 @@ QR codes allow users to quickly access transport information.
 
 Government systems use strong identity verification to secure access.
 
+All government accounts are authenticated and accessed through the myID application. To verify a user’s identity, the platform securely stores uploaded Australian identification documents (such as a driver’s license) and utilizes advanced facial recognition technology.
+
+When accessing a specific government portal (e.g., the Australian Taxation Office), users must provide the email address associated with their myID.
+
+Subsequently, a verification code is pushed to the myID mobile app, requiring the user to manually approve the request to complete the multi-factor authentication (MFA) process.
+
+![ATO-login](ATO-login.jpg)
+![Verifivation-Code](Verifivation-Code.jpg)
+
 #### Security Concepts
 
 - **Digital Identity**
