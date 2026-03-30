@@ -103,6 +103,7 @@ Restricting SSH to local network access prevents remote attackers from attemptin
 
 #### Potential Vulnerabilities
 - If LAN is compromised, SSH could still be accessed
+- Password are vulnerable to brute force compromised, enforcing key-based authentication only significantly reduces the attack surface
 
 ![ports](screenshot/Router-Ports.jpg)
 
