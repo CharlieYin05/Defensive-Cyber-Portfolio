@@ -18,6 +18,9 @@ The home network uses:
 - **2.4GHz WiFi → WPA2**
 - **5GHz WiFi → WPA3**
 
+![WPA2](screenshot/WPA2.jpg)
+![WPA3](screenshot/WPA3.jpg)
+
 #### Security Concepts
 - **Encryption**
   - WPA2 uses AES encryption
@@ -38,6 +41,7 @@ WPA3 offers improved security compared to WPA2, especially against offline passw
 ### 2. Guest WiFi Network
 
 A separate guest WiFi network is enabled for visitors.
+
 
 #### Security Concepts
 - **Network Segmentation**
