@@ -103,8 +103,8 @@ Government systems use strong identity verification to secure access.
 During my visa application process, I encountered a security control mechanism used by the U.S. Consulate.
 
 The consulate explicitly requires all document submissions to be sent through the official Visa Navigator system instead of direct email.
-![Navigator](Visa-Navigator.jpg)
-![Navigator2](Visa-Navigator_2.jpg)
+![Navigator](Visa_Navigator.jpg)
+![Navigator2](Visa_Navigator_2.jpg)
 
 ---
 
@@ -128,7 +128,7 @@ Initially, I mistakenly sent sensitive documents to an incorrect email address:
 - Intended: `perthvisas@state.gov`
 - Mistyped: `perthvisas@state.com`
 
-![Wrong Email](screenshots/wrong-email.jpg)
+![Wrong Email](wrong-email.jpg)
 
 This email contained sensitive personal information, including visa details (VEVO).
 
