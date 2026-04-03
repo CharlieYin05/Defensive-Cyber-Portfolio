@@ -6,7 +6,6 @@ To identify cryptographic techniques used in modern network communication.
 ## Methodology
 I examined the SSH (Secure Shell) protocol used to remotely access my server (cy-server.com). I analysed both the authentication mechanism and server configuration.
 ![SSH](screenshot/ssh.jpg)
-
 SSH to my server using keypass
 
 ## Findings
@@ -28,8 +27,7 @@ The SSH server configuration disables password-based authentication:
 
 This ensures that only users with the correct private key can access the system.
 
-![keypass-only](screenshot/keypass-only)
-
+![keypass-only](screenshot/keypass-only.jpg)
 Screenshot of Configuration of my server SSH setting, showing it not allow to login via password. 
 
 ### 4. Strong Authentication Mechanism
