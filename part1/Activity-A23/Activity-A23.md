@@ -6,7 +6,7 @@ To improve the cybersecurity of my home network by implementing secure remote ac
 ## Methodology
 I deployed a VPN solution using Tailscale to securely connect my personal devices and home server. I configured multiple devices, including a MacBook, smartphone, and a Linux server, into a private network (tailnet).
 
-![Tailscale](screenshot/tailscale)
+![Tailscale](screenshot/tailscale.jpg)
 The Tailscale Admin Console displays my devices and server connected within a Virtual Private Network (VPN), each assigned a unique Virtual IP address (Tailscale IP).
 
 ## Findings
@@ -26,7 +26,7 @@ Multiple devices (MacBook, phone, server) are connected securely within the same
 ![tailscale-mac](screenshot/tailscale-mac.jpg)
 Tailscale connected on macOS device
 
-![tailscale-phone](screenshot/tailscale-phone/jpg)
+![tailscale-phone](screenshot/tailscale-phone.jpg)
 Tailscale connected on Android device
 
 ### 5. Subnet Routing
