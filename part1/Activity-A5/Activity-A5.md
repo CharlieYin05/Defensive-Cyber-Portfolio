@@ -5,7 +5,7 @@ To identify cryptographic implementations used in online services.
 
 ## Methodology
 I examined my own hosted services using Nginx Proxy Manager. I reviewed the SSL/TLS certificates configured for multiple subdomains under my domain (cy-server.com).
-
+![Nginx](screenshot/Ngnix.jpg)
 
 ## Findings
 
@@ -20,6 +20,16 @@ Certificates are automatically generated and managed through Nginx Proxy Manager
 
 ### 4. Subdomain Protection
 Each service is isolated using subdomains, and each subdomain has its own valid certificate, preventing browser security warnings.
+
+### 5. Certificate Details
+
+The SSL certificate uses ECDSA with SHA-384 as the signature algorithm. The public key is based on elliptic curve cryptography (secp384r1), which provides strong security with efficient performance.
+
+The certificate is issued by Let's Encrypt and is valid for a limited time period, ensuring regular renewal and improved security.
+
+This demonstrates the use of modern cryptographic standards in securing online services.
+
+
 
 ## Analysis
 The use of TLS encryption ensures confidentiality and integrity of data transmitted over the network. By using trusted certificate authorities such as Let's Encrypt, the system verifies server identity and prevents man-in-the-middle attacks.
