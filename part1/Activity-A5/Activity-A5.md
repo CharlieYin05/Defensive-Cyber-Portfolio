@@ -1,28 +1,33 @@
-Activity A5: Discover cryptographic implementation used online
+# Activity A5: Discover cryptographic implementation used online
 
 ## Objective
-To identify cryptographic techniques used in online communication.
+To identify cryptographic implementations used in online services.
 
 ## Methodology
-I accessed a secure website (https://www.google.com) and examined the connection security details using the browser. I also inspected the SSL/TLS certificate information.
+I examined my own hosted services using Nginx Proxy Manager. I reviewed the SSL/TLS certificates configured for multiple subdomains under my domain (cy-server.com).
+
 
 ## Findings
 
-### 1. HTTPS and TLS Encryption
-The website uses HTTPS, which relies on TLS (Transport Layer Security) to encrypt communication between client and server.
+### 1. TLS Encryption (HTTPS)
+All services are accessed via HTTPS, which ensures encrypted communication between users and the server.
 
-### 2. Digital Certificate
-The website provides a digital certificate issued by a trusted Certificate Authority (CA), which verifies the identity of the server.
+### 2. Digital Certificates
+Each subdomain (e.g., clipcascade.cy-server.com, portainer.cy-server.com) is configured with SSL certificates issued by Let's Encrypt via Cloudflare.
 
-### 3. Public Key Cryptography
-TLS uses asymmetric encryption (public/private keys) to establish a secure connection, followed by symmetric encryption for efficient data transfer.
+### 3. Certificate Management
+Certificates are automatically generated and managed through Nginx Proxy Manager, ensuring secure and up-to-date encryption.
+
+### 4. Subdomain Protection
+Each service is isolated using subdomains, and each subdomain has its own valid certificate, preventing browser security warnings.
 
 ## Analysis
-The use of HTTPS ensures confidentiality, integrity, and authenticity of online communication. It protects users from eavesdropping and man-in-the-middle attacks.
+The use of TLS encryption ensures confidentiality and integrity of data transmitted over the network. By using trusted certificate authorities such as Let's Encrypt, the system verifies server identity and prevents man-in-the-middle attacks.
+
+Additionally, applying certificates to all subdomains improves overall security and user trust, as browsers recognise the connections as secure.
 
 ## Evidence
-- Screenshot of browser showing HTTPS lock icon
-- Screenshot of certificate details
+- Screenshot of Nginx Proxy Manager showing active SSL certificates for multiple subdomains
 
 ## Reflection
-This activity helped me understand how cryptography is applied in everyday online browsing. It shows that secure communication is achieved through a combination of encryption and authentication mechanisms.
+This activity demonstrated how cryptographic techniques such as TLS and digital certificates are implemented in real-world systems. Managing certificates properly ensures secure communication and protects users from potential network attacks.
