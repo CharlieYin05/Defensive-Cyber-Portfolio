@@ -24,9 +24,11 @@ I can securely access my home server (cy-server) remotely without exposing servi
 Multiple devices (MacBook, phone, server) are connected securely within the same network, enabling safe communication across different platforms.
 
 ![tailscale-mac](screenshot/tailscale-mac.jpg)
+
 Tailscale connected on macOS device
 
 ![tailscale-phone](screenshot/tailscale-phone.jpg)
+
 Tailscale connected on Android device
 
 ### 5. Subnet Routing
