@@ -27,7 +27,8 @@ On Apple silicon devices, encryption keys are managed by the Secure Enclave, ens
 ### 5. Authentication Requirement
 Access to encrypted data requires user authentication during boot. Without the correct password or recovery key, the data remains inaccessible.
 
-![Apple](screenshot/Apple-FileVault.jpg)
+![Apple](screenshot/Apple-FV.jpg)
+
 For futher information of FileVault, please visit https://support.apple.com/en-au/guide/deployment/dep82064ec40/web.
 
 ## Analysis
