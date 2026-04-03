@@ -5,7 +5,7 @@ To identify cryptographic implementations used in online services.
 
 ## Methodology
 I examined my own hosted services using Nginx Proxy Manager. I reviewed the SSL/TLS certificates configured for multiple subdomains under my domain (cy-server.com).
-![Nginx](screenshot/Ngnix.jpg)
+![Nginx](screenshot/npm.jpg)
 
 ## Findings
 
@@ -29,6 +29,8 @@ The certificate is issued by Let's Encrypt and is valid for a limited time perio
 
 This demonstrates the use of modern cryptographic standards in securing online services.
 
+![cert2](screenshot/cert2.jpg)
+Certificate example of one of my domain (clicascade.cy-server.com)
 
 
 ## Analysis
