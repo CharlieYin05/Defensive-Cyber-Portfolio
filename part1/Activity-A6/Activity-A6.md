@@ -5,7 +5,8 @@ To identify cryptographic techniques used in offline systems.
 
 ## Methodology
 I examined the FileVault disk encryption feature on my MacBook Air. I reviewed both the system settings and official documentation describing how FileVault works.
-![FileVault][screenshot/FileVailt.jpg]
+![FileVault](screenshot/FileVault.jpg)
+FileVault is turn on my MacOS PC to encrypted the disk"Macintosh HD".
 
 ## Findings
 
@@ -14,7 +15,6 @@ FileVault provides full disk encryption, protecting all data stored on the inter
 
 ### 2. Encryption Algorithm
 FileVault uses AES-XTS encryption, which is a widely adopted standard for securing data at rest.
-
 
 ### 3. Key Management
 The encryption system uses a hierarchy of cryptographic keys:
@@ -26,6 +26,9 @@ On Apple silicon devices, encryption keys are managed by the Secure Enclave, ens
 
 ### 5. Authentication Requirement
 Access to encrypted data requires user authentication during boot. Without the correct password or recovery key, the data remains inaccessible.
+
+![Apple](screenshot/Apple-FileVault.jpg)
+For futher information of FileVault, please visit https://support.apple.com/en-au/guide/deployment/dep82064ec40/web.
 
 ## Analysis
 FileVault ensures confidentiality of data even if the physical device is stolen. The use of AES-XTS encryption and hardware-backed key storage significantly enhances security.
