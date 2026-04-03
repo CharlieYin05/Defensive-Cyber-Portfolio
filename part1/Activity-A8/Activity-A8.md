@@ -10,7 +10,7 @@ I analysed a real IoT device (Xiaomi smart camera) and examined the official Xia
 
 Example of an IoT device (Xiaomi smart home camera) used to analyse cryptographic implementation.
 
-![xiaomi-web](xiaomi-web.jpg)
+![xiaomi-web](screenshot/xiaomi-web.jpg)
 
 Screenshot from Xiaomi IoT Privacy White Paper showing the use of HTTPS and AES-128 encryption for secure data transmission and storage.
 
