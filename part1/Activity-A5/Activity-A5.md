@@ -6,6 +6,7 @@ To identify cryptographic implementations used in online services.
 ## Methodology
 I examined my own hosted services using Nginx Proxy Manager. I reviewed the SSL/TLS certificates configured for multiple subdomains under my domain (cy-server.com).
 ![Nginx](screenshot/npm.jpg)
+Screenshot shows my subdomain are under encrypted and certificated by trusted Certificate Authority.
 
 ## Findings
 
