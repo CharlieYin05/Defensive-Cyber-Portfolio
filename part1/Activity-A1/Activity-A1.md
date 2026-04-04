@@ -20,6 +20,9 @@ To complete this activity, I conducted observations around campus and reviewed a
 
 Physical access control is implemented across campus buildings using ID card systems.
 
+![student-card](student.card.jpg)
+
+
 - **Identity (Who you are):**
   - Student
   - Staff
@@ -41,6 +44,8 @@ Physical access control is implemented across campus buildings using ID card sys
 ### 2. CCTV Surveillance System
 
 CCTV cameras are deployed across campus to monitor activities.
+
+![CCTV](cctv.jpg)
 
 - Typically placed in:
   - High positions
