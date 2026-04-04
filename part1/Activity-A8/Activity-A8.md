@@ -6,7 +6,7 @@ To investigate cryptographic techniques used in IoT devices.
 ## Methodology
 I analysed a real IoT device (Xiaomi smart camera) and examined the official Xiaomi IoT Privacy White Paper to understand its cryptographic implementation.
 
-![xiaomi-camera](screenshot/xiaomi-camera.jpg)
+![xiaomi-camera](screenshot/xiaomi.jpg)
 
 Example of an IoT device (Xiaomi smart home camera) used to analyse cryptographic implementation.
 
