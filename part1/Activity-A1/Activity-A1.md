@@ -20,7 +20,7 @@ To complete this activity, I conducted observations around campus and reviewed a
 
 Physical access control is implemented across campus buildings using ID card systems.
 
-![student-card](student.card.jpg)
+![student-card](Student-card.jpg)
 
 
 - **Identity (Who you are):**
