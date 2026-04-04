@@ -21,7 +21,8 @@ To analyse five advanced access control devices based on their working principle
 - **Principle**: Uses near-infrared light to capture vein patterns beneath the skin
 
 ![plam-vein](screenshot/plam-vein.jpg)
-Example of a vein recognition device using near-infrared imaging to capture unique vein patterns for secure access control.
+
+Example of a vein recognition device using near-infrared imaging to capture unique vein patterns for secure access control
 
 - **Limitations**:
   - Sensitive to health conditions (e.g., low blood flow)
@@ -55,7 +56,7 @@ Example of a vein recognition device using near-infrared imaging to capture uniq
 
 ![E-link](screenshot/E-link.jpg)
 
-Example of a one-time password (OTP) hardware token generating a time-based dynamic code for secure access control.
+Example of a one-time password (OTP) hardware token generating a time-based dynamic code for secure access control
 
 - **Limitations**:
   - Hardware fragility
