@@ -18,7 +18,10 @@ To analyse five advanced access control devices based on their working principle
 
 ### 2. Vein Recognition (Palm/Finger Vein Scanner)
 - **Application**: ATMs, high-security facilities  
-- **Principle**: Uses near-infrared light to capture vein patterns beneath the skin  
+- **Principle**: Uses near-infrared light to capture vein patterns beneath the skin
+
+![plam-vein](screenshot/plam-vein.jpg)
+Example of a vein recognition device using near-infrared imaging to capture unique vein patterns for secure access control.
 
 - **Limitations**:
   - Sensitive to health conditions (e.g., low blood flow)
@@ -48,7 +51,11 @@ To analyse five advanced access control devices based on their working principle
 
 ### 5. Dynamic Smart Card / Token (E-Ink / OTP-based Card)
 - **Application**: Corporate access control systems  
-- **Principle**: Generates dynamic authentication codes that change periodically  
+- **Principle**: Generates dynamic authentication codes that change periodically
+
+![E-link](screenshot/E-link.jpg)
+
+Example of a one-time password (OTP) hardware token generating a time-based dynamic code for secure access control.
 
 - **Limitations**:
   - Hardware fragility
