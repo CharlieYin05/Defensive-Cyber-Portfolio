@@ -55,7 +55,7 @@ Anonymous users interface of My Account
 ### 2. QR Code at Bus Stops
 
 QR codes allow users to quickly access transport information.
-![Bus_stop QR_code](Transperth_QR_code.jpg)
+![Bus_stop QR_code](QR-code.jpg)
 
 #### Security Concepts
 - **Convenience vs Security Trade-off**
